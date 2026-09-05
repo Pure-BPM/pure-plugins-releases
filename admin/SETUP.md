@@ -30,8 +30,12 @@ We use Sveltia's ready-made auth worker (nothing to code).
    - **Application name:** `Pure BPM Plugin Pages`
    - **Homepage URL:** your editor URL (from step 3 below, e.g.
      `https://pure-bpm.github.io/pure-plugins-releases/admin/`)
-   - **Authorization callback URL:** your worker URL **+ `/callback`**, e.g.
+   - **Redirect URI** (GitHub's redesigned form calls the callback this — same
+     thing): your worker URL **+ `/callback`**, e.g.
      `https://sveltia-cms-auth.<your-name>.workers.dev/callback`
+   - Leave **Allow wildcard matching** and **Enable Device Flow** unchecked.
+   - **Uncheck "Expire user access tokens"** — otherwise the editor login drops
+     after 8 hours.
 3. Click **Register application**, then **Generate a new client secret**.
 4. Copy the **Client ID** and **Client secret** into the Cloudflare worker's
    variables (`GITHUB_CLIENT_ID`, `GITHUB_CLIENT_SECRET`). Also set

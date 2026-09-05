@@ -1,0 +1,109 @@
+# Sveltia CMS configuration — edits manifest.json (the source of truth the Pure
+# BPM Desktop app reads live) and uploads screenshots into this repo.
+#
+# The app fetches https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/manifest.json
+# on launch, so anything published here appears on the plugin detail pages with
+# NO app update. Every save is a normal git commit — fully version-history'd and
+# revertable.
+
+backend:
+  name: github
+  repo: Pure-BPM/pure-plugins-releases
+  branch: main
+  # OAuth broker for GitHub sign-in. Set this to your deployed auth worker URL
+  # (see admin/SETUP.md). Until it's set, the editor loads but sign-in will fail.
+  base_url: https://REPLACE-WITH-YOUR-AUTH-WORKER.workers.dev
+
+# Screenshots are committed to /screenshots in this repo; the field stores the
+# public raw URL so the desktop app can load it directly.
+media_folder: screenshots
+public_folder: https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/screenshots
+
+collections:
+  - name: plugins
+    label: Plugin pages
+    files:
+      - name: manifest
+        label: All plugins
+        file: manifest.json
+        description: >-
+          Edit each plugin's page here. Text changes and screenshot uploads go
+          live on the app's plugin pages after Publish.
+        fields:
+          - { name: schema, widget: hidden, default: 1 }
+          - {
+              name: updated,
+              label: 'Last updated (free text, e.g. 2026-09-05)',
+              widget: string,
+              required: false,
+            }
+          - name: plugins
+            label: Plugins
+            label_singular: Plugin
+            widget: list
+            summary: '{{fields.name}}'
+            fields:
+              - {
+                  name: id,
+                  label: 'ID (do NOT change — the app matches on this)',
+                  widget: string,
+                }
+              - { name: name, label: Name, widget: string }
+              - {
+                  name: blurb,
+                  label: 'Tile blurb (short line on the right-column card)',
+                  widget: string,
+                }
+              - { name: version, label: Version, widget: string, required: false }
+              - {
+                  name: comingSoon,
+                  label: 'Coming soon? (hides the download button)',
+                  widget: boolean,
+                  default: false,
+                }
+              - name: assets
+                label: Installer download URLs
+                widget: object
+                fields:
+                  - { name: macos, label: macOS installer URL, widget: string, required: false }
+                  - { name: windows, label: Windows installer URL, widget: string, required: false }
+              - name: assetMeta
+                label: Installer notes (shown under the download button)
+                widget: object
+                required: false
+                fields:
+                  - { name: macos, label: macOS note, widget: string, required: false }
+                  - { name: windows, label: Windows note, widget: string, required: false }
+              - name: detail
+                label: Detail page content
+                widget: object
+                required: false
+                fields:
+                  - { name: tagline, label: 'Tagline (hero subtitle)', widget: string, required: false }
+                  - {
+                      name: engine,
+                      label: 'Engine badge (e.g. Powered by Claude · Anthropic)',
+                      widget: string,
+                      required: false,
+                    }
+                  - { name: description, label: 'What it is (paragraph)', widget: text, required: false }
+                  - {
+                      name: highlights,
+                      label: Highlights,
+                      widget: list,
+                      required: false,
+                      hint: 'One bullet per entry.',
+                    }
+                  - {
+                      name: requirements,
+                      label: Requirements,
+                      widget: list,
+                      required: false,
+                      hint: 'One requirement per entry.',
+                    }
+                  - name: screenshots
+                    label: Screenshots
+                    widget: list
+                    required: false
+                    hint: 'Drag-drop images; they appear in a gallery on the page.'
+                    field: { name: image, label: Image, widget: image }

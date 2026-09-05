@@ -13,10 +13,12 @@ backend:
   # OAuth broker for GitHub sign-in (Sveltia auth worker on Cloudflare).
   base_url: https://sveltia-cms-auth.purebpm.workers.dev
 
-# Screenshots are committed to /screenshots in this repo; the field stores the
-# public raw URL so the desktop app can load it directly.
+# Screenshots are committed to /screenshots in this repo. Sveltia only allows a
+# site-relative public_folder (not an absolute URL), so the field stores
+# "/screenshots/<file>"; the desktop app resolves that against the repo's raw base
+# when rendering.
 media_folder: screenshots
-public_folder: https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/screenshots
+public_folder: /screenshots
 
 collections:
   - name: plugins

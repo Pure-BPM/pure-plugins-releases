@@ -28,9 +28,12 @@
       "id": "pure-samples",
       "name": "Pure Samples",
       "blurb": "Generate drag-ready samples from a text prompt.",
-      "version": null,
-      "comingSoon": true,
-      "assets": { "macos": null, "windows": null }
+      "version": "0.1.0",
+      "comingSoon": false,
+      "assets": {
+        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-samples-v0.1.0/PureSamples-0.1.0-macOS.dmg",
+        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-samples-v0.1.0/PureSamples-0.1.0-Windows.zip"
+      }
     }
   ]
 }

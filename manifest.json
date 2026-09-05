@@ -11,6 +11,26 @@
       "assets": {
         "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-control-v0.1.2/PureControl-0.1.2-macOS.dmg",
         "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-control-v0.1.2/PureControl-Setup-0.1.2.exe"
+      },
+      "detail": {
+        "tagline": "An AI assistant that lives inside Ableton Live — tell it what you want, and it drives your session.",
+        "engine": "Powered by Claude · Anthropic",
+        "description": "Pure Control puts a producer-grade AI assistant directly in your Ableton Live session. Type what you want — \"build me a techno session at 128\", \"sidechain the bass to the kick\", \"warm up the master\" — and it performs the moves on real devices through a native Live bridge: loading instruments, shaping sounds, building full arrangements. It runs on your Pure BPM Coinz balance, so there are no API keys to manage.",
+        "highlights": [
+          "One-prompt session builder — drums, bass, lead hooks and arrangement, varied every time",
+          "Mix & mastering moves applied to your actual set — curated device chains, gain staging, sidechain",
+          "Chat mode for production questions, Work mode for hands-on control"
+        ],
+        "requirements": [
+          "Ableton Live 11 or newer",
+          "AU & VST3 formats included",
+          "Installs the Live remote script for you",
+          "Pure BPM account (Coinz)"
+        ]
+      },
+      "assetMeta": {
+        "macos": ".dmg · signed & notarized · Universal (Apple Silicon & Intel)",
+        "windows": ".exe installer"
       }
     },
     {
@@ -22,6 +42,25 @@
       "assets": {
         "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.1.0/PureAI-0.1.0-macOS.dmg",
         "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.1.0/PureAI-0.1.0-Windows.zip"
+      },
+      "detail": {
+        "tagline": "Generate full tracks and split any take into stems — without leaving Ableton.",
+        "engine": "Powered by MusicGPT + Demucs",
+        "description": "Pure AI is a music generator and stem-separation suite inside your DAW. Prompt a full track — genre, mood, BPM — and audition takes right in the plugin; then split any take (or any audio file you load) into stems: vocals, drums, bass, and more, with guitar and piano in beta. Masters and stems land in your local Pure BPM library on your machine, drag-ready for any track. Generation and separation run on your Coinz balance.",
+        "highlights": [
+          "Full-track generation with style, mood and BPM control — multiple takes per prompt",
+          "Stem separation on generated takes or your own audio files — 4 stems, plus guitar & piano (beta)",
+          "Everything stored locally in your Pure BPM library — drag straight into your session"
+        ],
+        "requirements": [
+          "Ableton Live 11 or newer",
+          "AU & VST3 formats included",
+          "Pure BPM account (Coinz)"
+        ]
+      },
+      "assetMeta": {
+        "macos": ".dmg · signed & notarized · Universal (Apple Silicon & Intel)",
+        "windows": ".zip archive"
       }
     },
     {
@@ -33,6 +72,25 @@
       "assets": {
         "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-samples-v0.1.0/PureSamples-0.1.0-macOS.dmg",
         "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-samples-v0.1.0/PureSamples-0.1.0-Windows.zip"
+      },
+      "detail": {
+        "tagline": "Type a sound, get a sample — hi-fi one-shots and loops generated from text.",
+        "engine": "Powered by ElevenLabs",
+        "description": "Pure Samples is a text-to-sample generator that lives in your DAW. Describe the sound — \"dusty vinyl kick\", \"metallic riser, 4 bars\", \"wet clap with tape saturation\" — and it renders a high-fidelity, drag-ready sample. Every take lands in your sample tray: audition, re-roll, set length and looping, then drag it onto a track. Your tray restores with the plugin, and samples are stored locally — they're yours. Generations run on your Coinz balance.",
+        "highlights": [
+          "Hi-fi 44.1 kHz stereo output — drum hits, FX, textures, risers",
+          "Length & loop controls, with a sample tray that restores between sessions",
+          "Drag straight to any Ableton track — samples stored locally, yours to keep"
+        ],
+        "requirements": [
+          "Ableton Live 11 or newer",
+          "AU & VST3 formats included",
+          "Pure BPM account (Coinz)"
+        ]
+      },
+      "assetMeta": {
+        "macos": ".dmg · signed & notarized · Universal (Apple Silicon & Intel)",
+        "windows": ".zip archive"
       }
     }
   ]

@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "updated": "2026-09-05",
+  "plugins": [
+    {
+      "id": "pure-control",
+      "name": "Pure Control",
+      "blurb": "LLM assistant that drives Ableton Live by chat.",
+      "version": "0.1.2",
+      "comingSoon": false,
+      "assets": {
+        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-control-v0.1.2/PureControl-0.1.2-macOS.dmg",
+        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-control-v0.1.2/PureControl-Setup-0.1.2.exe"
+      }
+    },
+    {
+      "id": "pure-ai",
+      "name": "Pure AI",
+      "blurb": "Generate tracks and split stems, right inside Ableton.",
+      "version": "0.1.0",
+      "comingSoon": false,
+      "assets": {
+        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.1.0/PureAI-0.1.0-macOS.dmg",
+        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.1.0/PureAI-0.1.0-Windows.zip"
+      }
+    },
+    {
+      "id": "pure-samples",
+      "name": "Pure Samples",
+      "blurb": "Generate drag-ready samples from a text prompt.",
+      "version": null,
+      "comingSoon": true,
+      "assets": { "macos": null, "windows": null }
+    }
+  ]
+}

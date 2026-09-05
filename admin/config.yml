@@ -10,9 +10,8 @@ backend:
   name: github
   repo: Pure-BPM/pure-plugins-releases
   branch: main
-  # OAuth broker for GitHub sign-in. Set this to your deployed auth worker URL
-  # (see admin/SETUP.md). Until it's set, the editor loads but sign-in will fail.
-  base_url: https://REPLACE-WITH-YOUR-AUTH-WORKER.workers.dev
+  # OAuth broker for GitHub sign-in (Sveltia auth worker on Cloudflare).
+  base_url: https://sveltia-cms-auth.purebpm.workers.dev
 
 # Screenshots are committed to /screenshots in this repo; the field stores the
 # public raw URL so the desktop app can load it directly.

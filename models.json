@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-09-06",
+  "updated": "2026-09-07",
   "models": [
     {
       "id": "test-model",
@@ -42,6 +42,108 @@
       "hidden": true,
       "requirements": {},
       "assets": []
+    },
+    {
+      "id": "ace-step",
+      "name": "ACE-Step",
+      "blurb": "Generate complete songs with vocals and instrumentation — entirely on your Mac.",
+      "description": "ACE-Step is a 3.5-billion-parameter open-source foundation model that writes full songs from a text prompt. Describe the music you want — genre, mood, instrumentation, feel — and it composes a complete track with melody, harmony, rhythm, and vocals, all in minutes on Apple Silicon. No upload, no cloud queue, no per-song charges. Buy once, generate forever.\n\nBuilt by ACE Studio and StepFun. Apache 2.0 — source: https://github.com/ace-step/ACE-Step",
+      "highlights": [
+        "Full songs with vocals and instrumentation from a text prompt",
+        "15× faster than LLM-based music generators — ~26s for a 60s track on M2 Max",
+        "Runs entirely on your Mac using Apple Silicon — offline after install",
+        "One-time unlock — no credits per generation, works offline"
+      ],
+      "image": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/ace-step/card.png",
+      "category": "generation",
+      "priceCoinz": 9000,
+      "downloadSizeBytes": 8275797438,
+      "version": "1",
+      "hidden": true,
+      "requirements": {
+        "appleSiliconOnly": true,
+        "minRamGB": 16
+      },
+      "assets": [
+        {
+          "url": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/ace-step/ace_step_worker.py",
+          "bytes": 6329,
+          "sha256": "fac15de38e6c8485e9f292589c46d7308069701aead4d54f7331cef30655f235",
+          "dest": "ace_step_worker.py"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/ace-step/requirements_ace_step.txt",
+          "bytes": 902,
+          "sha256": "f2a1b5ea1c3516b510e4312c79e026dc515b85de02379736bd690693267f7521",
+          "dest": "requirements_ace_step.txt"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/ace_step_transformer/config.json",
+          "bytes": 639,
+          "sha256": "",
+          "dest": "ace_step_transformer/config.json"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/ace_step_transformer/diffusion_pytorch_model.safetensors",
+          "bytes": 6611422728,
+          "sha256": "e810f16728d8a2e0d1b9c3a907aac8c9a427ce38edbd890cb3dce5ff92da5aad",
+          "dest": "ace_step_transformer/diffusion_pytorch_model.safetensors"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/music_dcae_f8c8/config.json",
+          "bytes": 1034,
+          "sha256": "",
+          "dest": "music_dcae_f8c8/config.json"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/music_dcae_f8c8/diffusion_pytorch_model.safetensors",
+          "bytes": 313646516,
+          "sha256": "2b0cb469307ac50659d1880db2a99bae47d0df335cbb36853964662d4b80e8ee",
+          "dest": "music_dcae_f8c8/diffusion_pytorch_model.safetensors"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/music_vocoder/config.json",
+          "bytes": 940,
+          "sha256": "",
+          "dest": "music_vocoder/config.json"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/music_vocoder/diffusion_pytorch_model.safetensors",
+          "bytes": 206350988,
+          "sha256": "c92c9b46e28ab7b37b777780cf4308ad7ddac869636bb77aa61599358c4bc1c0",
+          "dest": "music_vocoder/diffusion_pytorch_model.safetensors"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/umt5-base/config.json",
+          "bytes": 848,
+          "sha256": "",
+          "dest": "umt5-base/config.json"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/umt5-base/model.safetensors",
+          "bytes": 1127460248,
+          "sha256": "779cec0d210b2123e21d0a9cd8128f02b4d412627355028965a8be0b241cc3b6",
+          "dest": "umt5-base/model.safetensors"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/umt5-base/special_tokens_map.json",
+          "bytes": 7079,
+          "sha256": "",
+          "dest": "umt5-base/special_tokens_map.json"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/umt5-base/tokenizer_config.json",
+          "bytes": 61728,
+          "sha256": "",
+          "dest": "umt5-base/tokenizer_config.json"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/umt5-base/tokenizer.json",
+          "bytes": 16837459,
+          "sha256": "20a46ac256746594ed7e1e3ef733b83fbc5a6f0922aa7480eda961743de080ef",
+          "dest": "umt5-base/tokenizer.json"
+        }
+      ]
     },
     {
       "id": "matchering",

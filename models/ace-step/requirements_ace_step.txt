@@ -1,0 +1,28 @@
+# ACE-Step inference deps — installed into the sidecar's Python venv at setup time.
+# Torch, transformers, soundfile, and numpy are already present in the sidecar env;
+# only deps unique to ACE-Step are listed here. Pin exact versions so the sidecar
+# env stays deterministic across reinstalls.
+#
+# Install: pip install --quiet -r requirements_ace_step.txt
+# Then:    pip install --quiet git+https://github.com/ace-step/ACE-Step.git
+
+# Core diffusion / model loading (not in sidecar)
+diffusers==0.32.2
+accelerate==1.6.0
+peft==0.15.2
+
+# Audio I/O (torchaudio not in sidecar)
+torchaudio==2.6.0
+
+# Logging
+loguru==0.7.3
+
+# Language detection / lyric tokenization
+py3langid==0.3.0
+pypinyin==0.53.0
+hangul-romanize==0.1.0
+num2words==0.5.14
+
+# spaCy is used by the language segmenter; install without models (en_core_web_sm
+# is not needed for ACE-Step's lightweight language detection path).
+spacy==3.8.4

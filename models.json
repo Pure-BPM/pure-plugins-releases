@@ -105,7 +105,7 @@
       "priceCoinz": 1500,
       "downloadSizeBytes": 230444,
       "version": "1",
-      "hidden": true,
+      "hidden": false,
       "requirements": {},
       "assets": [
         {

@@ -108,3 +108,95 @@ collections:
                     required: false
                     hint: 'Drag-drop images; they appear in a gallery on the page.'
                     field: { name: image, label: Image, widget: image }
+
+  - name: models
+    label: AI Model pages
+    files:
+      - name: models
+        label: All AI models
+        file: models.json
+        description: >-
+          Edit each marketplace AI model's card here. The app fetches models.json
+          on launch, so text/price/requirement changes go live with no app update.
+          Price shown here is DISPLAY ONLY — the charge is enforced server-side
+          from coinz_pricing. Asset URLs + SHA-256 must match the published files.
+        fields:
+          - { name: schema, widget: hidden, default: 1 }
+          - {
+              name: updated,
+              label: 'Last updated (free text, e.g. 2026-09-06)',
+              widget: string,
+              required: false,
+            }
+          - name: models
+            label: Models
+            label_singular: Model
+            widget: list
+            summary: '{{fields.name}}'
+            fields:
+              - {
+                  name: id,
+                  label: 'ID (do NOT change — the app matches on this)',
+                  widget: string,
+                }
+              - { name: name, label: Name, widget: string }
+              - { name: blurb, label: 'Card blurb (short line)', widget: string }
+              - { name: description, label: 'Full description', widget: text }
+              - {
+                  name: highlights,
+                  label: Highlights,
+                  widget: list,
+                  required: false,
+                  hint: 'One bullet per entry.',
+                }
+              - { name: image, label: Card image, widget: image, required: false }
+              - {
+                  name: category,
+                  label: Category,
+                  widget: select,
+                  options: ['generation', 'mastering', 'midi', 'voice'],
+                }
+              - {
+                  name: priceCoinz,
+                  label: 'Price in Coinz (DISPLAY ONLY — server enforces)',
+                  widget: number,
+                  value_type: int,
+                }
+              - {
+                  name: downloadSizeBytes,
+                  label: 'Download size in bytes',
+                  widget: number,
+                  value_type: int,
+                }
+              - { name: version, label: Version, widget: string }
+              - {
+                  name: hidden,
+                  label: 'Hidden? (does not render as a card)',
+                  widget: boolean,
+                  default: false,
+                  required: false,
+                }
+              - {
+                  name: comingSoon,
+                  label: 'Coming soon?',
+                  widget: boolean,
+                  default: false,
+                  required: false,
+                }
+              - name: requirements
+                label: Hardware requirements
+                widget: object
+                required: false
+                fields:
+                  - { name: minRamGB, label: 'Min RAM (GB)', widget: number, value_type: int, required: false }
+                  - { name: appleSiliconOnly, label: 'Apple Silicon only?', widget: boolean, default: false, required: false }
+                  - { name: minMacOS, label: 'Min macOS (e.g. 13.0)', widget: string, required: false }
+              - name: assets
+                label: Downloadable assets (weight files)
+                widget: list
+                summary: '{{fields.dest}}'
+                fields:
+                  - { name: url, label: Public asset URL, widget: string }
+                  - { name: bytes, label: 'Expected size (bytes)', widget: number, value_type: int }
+                  - { name: sha256, label: 'SHA-256 (lowercase hex)', widget: string }
+                  - { name: dest, label: 'Destination path under models/<id>/', widget: string }

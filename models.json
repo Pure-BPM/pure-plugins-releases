@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "updated": "2026-09-06",
+  "models": [
+    {
+      "id": "test-model",
+      "name": "P0 Test Model",
+      "blurb": "Internal harness proof — not a real model.",
+      "description": "A hidden test item used to verify the marketplace platform end to end (purchase, entitlement, managed install, free reinstall). It is never shown as a card in the app.",
+      "highlights": [],
+      "image": "",
+      "category": "generation",
+      "priceCoinz": 10,
+      "downloadSizeBytes": 117,
+      "version": "1",
+      "hidden": true,
+      "assets": [
+        {
+          "url": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/test-model/test-asset.bin",
+          "bytes": 117,
+          "sha256": "c3b8764c73686ee17e30bea92d8d92ca5a9b7d990b73263fcd0d08913002d4ee",
+          "dest": "test-asset.bin"
+        }
+      ]
+    }
+  ]
+}

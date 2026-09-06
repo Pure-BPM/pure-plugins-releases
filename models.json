@@ -22,6 +22,26 @@
           "dest": "test-asset.bin"
         }
       ]
+    },
+    {
+      "id": "basic-pitch",
+      "name": "Basic Pitch",
+      "blurb": "Turn any audio into MIDI \u2014 on your Mac, in seconds.",
+      "description": "Basic Pitch listens to any track in your library and writes it out as MIDI \u2014 chords, melodies and pitch bends included. Built on Spotify's celebrated open transcription research, it runs entirely on your Mac: no upload, no per-run charges, no waiting on a queue. Buy once, extract MIDI forever. The MIDI file lands right next to your audio, ready to drag into any DAW.",
+      "highlights": [
+        "Polyphonic transcription \u2014 chords and melodies, with pitch bends",
+        "Runs fully on-device on any Mac, CPU only, seconds per track",
+        "Extract MIDI from any library track or straight from the Wave Editor",
+        "One-time unlock \u2014 no credits per extraction, works offline"
+      ],
+      "image": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/basic-pitch/card.jpg",
+      "category": "midi",
+      "priceCoinz": 1500,
+      "downloadSizeBytes": 0,
+      "version": "1",
+      "hidden": true,
+      "requirements": {},
+      "assets": []
     }
   ]
 }

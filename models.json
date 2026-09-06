@@ -13,7 +13,7 @@
       "priceCoinz": 10,
       "downloadSizeBytes": 117,
       "version": "1",
-      "hidden": false,
+      "hidden": true,
       "assets": [
         {
           "url": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/test-model/test-asset.bin",

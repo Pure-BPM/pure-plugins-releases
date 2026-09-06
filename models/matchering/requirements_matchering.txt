@@ -1,0 +1,17 @@
+# Isolated venv requirements for Matchering (GPL-3).
+#
+# Installed by marketplace:setup-matchering into models/matchering-venv/ —
+# NEVER merged into the main sidecar env (GPL isolation rule).
+#
+# Pinned to exact versions so the isolated venv is reproducible across machines.
+# To add --require-hashes (recommended for production), run:
+#   pip download -d /tmp/mg_wheels -r requirements_matchering.txt
+#   pip hash /tmp/mg_wheels/*.whl > hashes.txt
+#   # then reformat with pip-compile --generate-hashes
+#
+# matchering source: https://github.com/sergree/matchering (GPL-3)
+matchering==2.0.6
+numpy==1.26.4
+scipy==1.13.1
+soundfile==0.12.1
+resampy==0.4.3

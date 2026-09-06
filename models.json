@@ -57,11 +57,24 @@
       "image": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/matchering/card.jpg",
       "category": "mastering",
       "priceCoinz": 2500,
-      "downloadSizeBytes": 0,
+      "downloadSizeBytes": 4893,
       "version": "1",
       "hidden": true,
       "requirements": {},
-      "assets": []
+      "assets": [
+        {
+          "url": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/matchering/matchering_worker.py",
+          "bytes": 4238,
+          "sha256": "8a81fd9ff3f33a898e6dfbd32b696f0079d4c19452f51ea48378ff42b9eec379",
+          "dest": "matchering_worker.py"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/matchering/requirements_matchering.txt",
+          "bytes": 655,
+          "sha256": "13157e182a82798bffeb7cb08b954e9de9135cc0b112c1653be65248953ae091",
+          "dest": "requirements_matchering.txt"
+        }
+      ]
     }
   ]
 }

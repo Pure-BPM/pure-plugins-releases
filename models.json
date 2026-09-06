@@ -3,6 +3,72 @@
   "updated": "2026-09-07",
   "models": [
     {
+      "id": "voice",
+      "name": "Chatterbox Voice",
+      "blurb": "Speak any text in any voice — locally on your Mac.",
+      "description": "Chatterbox is a production-grade open-source TTS model from Resemble AI that synthesises natural speech from text, and clones any voice from a short audio reference. Type lyrics, dialogue, or narration — get back a WAV file in the voice of your choice. No upload, no per-run charges, works offline. Buy once, generate forever.\n\nChatterbox is free software (MIT) by Resemble AI — source: https://github.com/resemble-ai/chatterbox",
+      "highlights": [
+        "Text to speech in any voice — speak lyrics, dialogue, or narration",
+        "Voice cloning — match any voice from a short audio reference",
+        "Runs entirely on Apple Silicon — private, offline, no per-run charges",
+        "One-time unlock — generate as many takes as you want"
+      ],
+      "image": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/voice/card.png",
+      "category": "voice",
+      "priceCoinz": 5000,
+      "downloadSizeBytes": 2127893895,
+      "version": "1",
+      "hidden": false,
+      "requirements": {
+        "appleSiliconOnly": true,
+        "minRamGB": 8
+      },
+      "assets": [
+        {
+          "url": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/voice/chatterbox_worker.py",
+          "bytes": 4055,
+          "sha256": "0fc440c454c11843dc6da9c29ba7bd8e8611dc02ebe09fb71e4dba620c103e98",
+          "dest": "chatterbox_worker.py"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/voice/requirements_chatterbox.txt",
+          "bytes": 280,
+          "sha256": "200d00241d29ac0a6f234e4da3cbb9e5953baffa63c8ea3b19480aadf9596c48",
+          "dest": "requirements_chatterbox.txt"
+        },
+        {
+          "url": "https://huggingface.co/ResembleAI/chatterbox/resolve/main/t3_cfg.pt",
+          "bytes": 1064892246,
+          "sha256": "0b2dd5439fe7e94f379561419847a45bf2c79d0e8ea751c6bbe947ce337789cc",
+          "dest": "t3_cfg.pt"
+        },
+        {
+          "url": "https://huggingface.co/ResembleAI/chatterbox/resolve/main/s3gen.pt",
+          "bytes": 1057165844,
+          "sha256": "9b9ff07e60b20c136e2b1b3d7563a24604e8d2c4c267888d1ee929dd0151d2a3",
+          "dest": "s3gen.pt"
+        },
+        {
+          "url": "https://huggingface.co/ResembleAI/chatterbox/resolve/main/ve.pt",
+          "bytes": 5698626,
+          "sha256": "4b16d836bc598509860f6fa068165a8bb5e9ac84f05582dfcf278a5a372879f1",
+          "dest": "ve.pt"
+        },
+        {
+          "url": "https://huggingface.co/ResembleAI/chatterbox/resolve/main/conds.pt",
+          "bytes": 107374,
+          "sha256": "6552d70568833628ba019c6b03459e77fe71ca197d5c560cef9411bee9d87f4e",
+          "dest": "conds.pt"
+        },
+        {
+          "url": "https://huggingface.co/ResembleAI/chatterbox/resolve/main/tokenizer.json",
+          "bytes": 25470,
+          "sha256": "",
+          "dest": "tokenizer.json"
+        }
+      ]
+    },
+    {
       "id": "test-model",
       "name": "P0 Test Model",
       "blurb": "Harness walkthrough item \u2014 buy, watch it install, then we re-hide it.",

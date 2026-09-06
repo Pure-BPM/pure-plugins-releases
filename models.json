@@ -103,11 +103,18 @@
       "image": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/basic-pitch/card.jpg",
       "category": "midi",
       "priceCoinz": 1500,
-      "downloadSizeBytes": 0,
+      "downloadSizeBytes": 230444,
       "version": "1",
       "hidden": true,
       "requirements": {},
-      "assets": []
+      "assets": [
+        {
+          "url": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/basic-pitch/nmp.onnx",
+          "bytes": 230444,
+          "sha256": "2c3c1d144bfa61ad236e92e169c13535c880469a12a047d4e73451f2c059a0ec",
+          "dest": "nmp.onnx"
+        }
+      ]
     },
     {
       "id": "ace-step",

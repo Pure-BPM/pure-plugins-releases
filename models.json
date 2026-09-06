@@ -69,6 +69,46 @@
       ]
     },
     {
+      "id": "whisper",
+      "name": "Whisper Transcription",
+      "blurb": "Transcribe lyrics from any track — instantly, privately, on your Mac.",
+      "description": "Whisper is OpenAI's open-source speech recognition model. Pure BPM uses it to extract lyrics from any track in your library: click the Lyrics button on any track, and Whisper transcribes the vocals directly on your Mac. No audio ever leaves your machine. Included with Pure BPM at no extra cost.\n\nWhisper is free software (MIT) by OpenAI — source: https://github.com/openai/whisper",
+      "highlights": [
+        "Transcribe lyrics from any track — one click from the track detail panel",
+        "Runs entirely on-device — no audio sent to any server",
+        "Supports speech in 99 languages",
+        "Included with Pure BPM — no purchase required"
+      ],
+      "image": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/whisper/card.png",
+      "category": "transcription",
+      "priceCoinz": 0,
+      "downloadSizeBytes": 0,
+      "version": "1",
+      "hidden": false,
+      "requirements": {},
+      "assets": []
+    },
+    {
+      "id": "clap",
+      "name": "Semantic Search",
+      "blurb": "Find tracks by feeling, not filename — natural language search powered by LAION-CLAP.",
+      "description": "LAION-CLAP is an open-source audio-language model that understands what music sounds like, not just what it's called. Type 'melancholy piano late at night' or 'upbeat 90s hip-hop' in the search bar and Pure BPM finds matching tracks using tonal and rhythmic similarity. Analysis runs locally — your library stays private. Included with Pure BPM at no extra cost.\n\nLAION-CLAP is free software (MIT) — source: https://github.com/LAION-AI/CLAP",
+      "highlights": [
+        "Natural language search — describe the sound and find it",
+        "Understands mood, genre, instrumentation, and energy",
+        "Runs entirely on-device — your library stays private",
+        "Included with Pure BPM — no purchase required"
+      ],
+      "image": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/clap/card.png",
+      "category": "search",
+      "priceCoinz": 0,
+      "downloadSizeBytes": 0,
+      "version": "1",
+      "hidden": false,
+      "requirements": {},
+      "assets": []
+    },
+    {
       "id": "test-model",
       "name": "P0 Test Model",
       "blurb": "Harness walkthrough item \u2014 buy, watch it install, then we re-hide it.",

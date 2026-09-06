@@ -42,6 +42,26 @@
       "hidden": true,
       "requirements": {},
       "assets": []
+    },
+    {
+      "id": "matchering",
+      "name": "Matchering",
+      "blurb": "Master your track to sound like your reference \u2014 locally, in minutes.",
+      "description": "Pick any professionally-mastered track you love as the reference, and Matchering reshapes your mix to match it \u2014 loudness, frequency balance, peak and stereo width \u2014 right on your Mac. The same open-source engine trusted by professional mastering services, running privately in an isolated environment: no upload, no per-run charges, works offline. Buy once, master forever.\n\nMatchering is free software (GPL-3.0) by Sergree \u2014 source: https://github.com/sergree/matchering",
+      "highlights": [
+        "Reference mastering \u2014 your track, shaped to a track you love",
+        "Matches loudness, EQ balance, peaks and stereo width",
+        "Runs fully on-device in an isolated engine \u2014 private and offline",
+        "One-time unlock \u2014 no credits per master"
+      ],
+      "image": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/matchering/card.jpg",
+      "category": "mastering",
+      "priceCoinz": 2500,
+      "downloadSizeBytes": 0,
+      "version": "1",
+      "hidden": true,
+      "requirements": {},
+      "assets": []
     }
   ]
 }

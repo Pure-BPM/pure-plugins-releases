@@ -59,7 +59,7 @@
       "priceCoinz": 9000,
       "downloadSizeBytes": 8275797438,
       "version": "1",
-      "hidden": true,
+      "hidden": false,
       "requirements": {
         "appleSiliconOnly": true,
         "minRamGB": 16

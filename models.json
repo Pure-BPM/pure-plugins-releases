@@ -1,0 +1,295 @@
+{
+  "schema": 1,
+  "updated": "2026-09-07",
+  "models": [
+    {
+      "id": "voice",
+      "name": "Chatterbox Voice",
+      "blurb": "Speak any text in any voice — locally on your Mac.",
+      "description": "Chatterbox is a production-grade open-source TTS model from Resemble AI that synthesises natural speech from text, and clones any voice from a short audio reference. Type lyrics, dialogue, or narration — get back a WAV file in the voice of your choice. No upload, no per-run charges, works offline. Buy once, generate forever.\n\nChatterbox is free software (MIT) by Resemble AI — source: https://github.com/resemble-ai/chatterbox",
+      "highlights": [
+        "Text to speech in any voice — speak lyrics, dialogue, or narration",
+        "Voice cloning — match any voice from a short audio reference",
+        "Runs entirely on Apple Silicon — private, offline, no per-run charges",
+        "One-time unlock — generate as many takes as you want"
+      ],
+      "image": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/voice/card.png",
+      "category": "voice",
+      "priceCoinz": 5000,
+      "downloadSizeBytes": 2127893895,
+      "version": "1",
+      "hidden": false,
+      "requirements": {
+        "appleSiliconOnly": true,
+        "minRamGB": 8
+      },
+      "assets": [
+        {
+          "url": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/voice/chatterbox_worker.py",
+          "bytes": 4055,
+          "sha256": "0fc440c454c11843dc6da9c29ba7bd8e8611dc02ebe09fb71e4dba620c103e98",
+          "dest": "chatterbox_worker.py"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/voice/requirements_chatterbox.txt",
+          "bytes": 280,
+          "sha256": "200d00241d29ac0a6f234e4da3cbb9e5953baffa63c8ea3b19480aadf9596c48",
+          "dest": "requirements_chatterbox.txt"
+        },
+        {
+          "url": "https://huggingface.co/ResembleAI/chatterbox/resolve/main/t3_cfg.pt",
+          "bytes": 1064892246,
+          "sha256": "0b2dd5439fe7e94f379561419847a45bf2c79d0e8ea751c6bbe947ce337789cc",
+          "dest": "t3_cfg.pt"
+        },
+        {
+          "url": "https://huggingface.co/ResembleAI/chatterbox/resolve/main/s3gen.pt",
+          "bytes": 1057165844,
+          "sha256": "9b9ff07e60b20c136e2b1b3d7563a24604e8d2c4c267888d1ee929dd0151d2a3",
+          "dest": "s3gen.pt"
+        },
+        {
+          "url": "https://huggingface.co/ResembleAI/chatterbox/resolve/main/ve.pt",
+          "bytes": 5698626,
+          "sha256": "4b16d836bc598509860f6fa068165a8bb5e9ac84f05582dfcf278a5a372879f1",
+          "dest": "ve.pt"
+        },
+        {
+          "url": "https://huggingface.co/ResembleAI/chatterbox/resolve/main/conds.pt",
+          "bytes": 107374,
+          "sha256": "6552d70568833628ba019c6b03459e77fe71ca197d5c560cef9411bee9d87f4e",
+          "dest": "conds.pt"
+        },
+        {
+          "url": "https://huggingface.co/ResembleAI/chatterbox/resolve/main/tokenizer.json",
+          "bytes": 25470,
+          "sha256": "",
+          "dest": "tokenizer.json"
+        }
+      ]
+    },
+    {
+      "id": "whisper",
+      "name": "Whisper Transcription",
+      "blurb": "Transcribe lyrics from any track — instantly, privately, on your Mac.",
+      "description": "Whisper is OpenAI's open-source speech recognition model. Pure BPM uses it to extract lyrics from any track in your library: click the Lyrics button on any track, and Whisper transcribes the vocals directly on your Mac. No audio ever leaves your machine. Included with Pure BPM at no extra cost.\n\nWhisper is free software (MIT) by OpenAI — source: https://github.com/openai/whisper",
+      "highlights": [
+        "Transcribe lyrics from any track — one click from the track detail panel",
+        "Runs entirely on-device — no audio sent to any server",
+        "Supports speech in 99 languages",
+        "Included with Pure BPM — no purchase required"
+      ],
+      "image": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/whisper/card.png",
+      "category": "transcription",
+      "priceCoinz": 0,
+      "downloadSizeBytes": 0,
+      "version": "1",
+      "hidden": false,
+      "requirements": {},
+      "assets": []
+    },
+    {
+      "id": "clap",
+      "name": "Semantic Search",
+      "blurb": "Find tracks by feeling, not filename — natural language search powered by LAION-CLAP.",
+      "description": "LAION-CLAP is an open-source audio-language model that understands what music sounds like, not just what it's called. Type 'melancholy piano late at night' or 'upbeat 90s hip-hop' in the search bar and Pure BPM finds matching tracks using tonal and rhythmic similarity. Analysis runs locally — your library stays private. Included with Pure BPM at no extra cost.\n\nLAION-CLAP is free software (MIT) — source: https://github.com/LAION-AI/CLAP",
+      "highlights": [
+        "Natural language search — describe the sound and find it",
+        "Understands mood, genre, instrumentation, and energy",
+        "Runs entirely on-device — your library stays private",
+        "Included with Pure BPM — no purchase required"
+      ],
+      "image": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/clap/card.png",
+      "category": "search",
+      "priceCoinz": 0,
+      "downloadSizeBytes": 0,
+      "version": "1",
+      "hidden": false,
+      "requirements": {},
+      "assets": []
+    },
+    {
+      "id": "test-model",
+      "name": "P0 Test Model",
+      "blurb": "Harness walkthrough item \u2014 buy, watch it install, then we re-hide it.",
+      "description": "A hidden test item used to verify the marketplace platform end to end (purchase, entitlement, managed install, free reinstall). It is never shown as a card in the app.",
+      "highlights": [],
+      "image": "",
+      "category": "generation",
+      "priceCoinz": 10,
+      "downloadSizeBytes": 117,
+      "version": "1",
+      "hidden": true,
+      "assets": [
+        {
+          "url": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/test-model/test-asset.bin",
+          "bytes": 117,
+          "sha256": "c3b8764c73686ee17e30bea92d8d92ca5a9b7d990b73263fcd0d08913002d4ee",
+          "dest": "test-asset.bin"
+        }
+      ]
+    },
+    {
+      "id": "basic-pitch",
+      "name": "Basic Pitch",
+      "blurb": "Turn any audio into MIDI \u2014 on your Mac, in seconds.",
+      "description": "Basic Pitch listens to any track in your library and writes it out as MIDI \u2014 chords, melodies and pitch bends included. Built on Spotify's celebrated open transcription research, it runs entirely on your Mac: no upload, no per-run charges, no waiting on a queue. Buy once, extract MIDI forever. The MIDI file lands right next to your audio, ready to drag into any DAW.",
+      "highlights": [
+        "Polyphonic transcription \u2014 chords and melodies, with pitch bends",
+        "Runs fully on-device on any Mac, CPU only, seconds per track",
+        "Extract MIDI from any library track — from the track menu or the Audio Tools panel",
+        "One-time unlock \u2014 no credits per extraction, works offline"
+      ],
+      "image": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/basic-pitch/card.jpg",
+      "category": "midi",
+      "priceCoinz": 1500,
+      "downloadSizeBytes": 230444,
+      "version": "1",
+      "hidden": false,
+      "requirements": {},
+      "assets": [
+        {
+          "url": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/basic-pitch/nmp.onnx",
+          "bytes": 230444,
+          "sha256": "2c3c1d144bfa61ad236e92e169c13535c880469a12a047d4e73451f2c059a0ec",
+          "dest": "nmp.onnx"
+        }
+      ]
+    },
+    {
+      "id": "ace-step",
+      "name": "ACE-Step",
+      "blurb": "Generate complete songs with vocals and instrumentation — entirely on your Mac.",
+      "description": "ACE-Step is a 3.5-billion-parameter open-source foundation model that writes full songs from a text prompt. Describe the music you want — genre, mood, instrumentation, feel — and it composes a complete track with melody, harmony, rhythm, and vocals, all in minutes on Apple Silicon. No upload, no cloud queue, no per-song charges. Buy once, generate forever.\n\nBuilt by ACE Studio and StepFun. Apache 2.0 — source: https://github.com/ace-step/ACE-Step",
+      "highlights": [
+        "Full songs with vocals and instrumentation from a text prompt",
+        "15× faster than LLM-based music generators — ~26s for a 60s track on M2 Max",
+        "Runs entirely on your Mac using Apple Silicon — offline after install",
+        "One-time unlock — no credits per generation, works offline"
+      ],
+      "image": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/ace-step/card.png",
+      "category": "generation",
+      "priceCoinz": 9000,
+      "downloadSizeBytes": 8275797438,
+      "version": "1",
+      "hidden": false,
+      "requirements": {
+        "appleSiliconOnly": true,
+        "minRamGB": 16
+      },
+      "assets": [
+        {
+          "url": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/ace-step/ace_step_worker.py",
+          "bytes": 6329,
+          "sha256": "fac15de38e6c8485e9f292589c46d7308069701aead4d54f7331cef30655f235",
+          "dest": "ace_step_worker.py"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/ace-step/requirements_ace_step.txt",
+          "bytes": 902,
+          "sha256": "f2a1b5ea1c3516b510e4312c79e026dc515b85de02379736bd690693267f7521",
+          "dest": "requirements_ace_step.txt"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/ace_step_transformer/config.json",
+          "bytes": 639,
+          "sha256": "",
+          "dest": "ace_step_transformer/config.json"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/ace_step_transformer/diffusion_pytorch_model.safetensors",
+          "bytes": 6611422728,
+          "sha256": "e810f16728d8a2e0d1b9c3a907aac8c9a427ce38edbd890cb3dce5ff92da5aad",
+          "dest": "ace_step_transformer/diffusion_pytorch_model.safetensors"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/music_dcae_f8c8/config.json",
+          "bytes": 1034,
+          "sha256": "",
+          "dest": "music_dcae_f8c8/config.json"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/music_dcae_f8c8/diffusion_pytorch_model.safetensors",
+          "bytes": 313646516,
+          "sha256": "2b0cb469307ac50659d1880db2a99bae47d0df335cbb36853964662d4b80e8ee",
+          "dest": "music_dcae_f8c8/diffusion_pytorch_model.safetensors"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/music_vocoder/config.json",
+          "bytes": 940,
+          "sha256": "",
+          "dest": "music_vocoder/config.json"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/music_vocoder/diffusion_pytorch_model.safetensors",
+          "bytes": 206350988,
+          "sha256": "c92c9b46e28ab7b37b777780cf4308ad7ddac869636bb77aa61599358c4bc1c0",
+          "dest": "music_vocoder/diffusion_pytorch_model.safetensors"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/umt5-base/config.json",
+          "bytes": 848,
+          "sha256": "",
+          "dest": "umt5-base/config.json"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/umt5-base/model.safetensors",
+          "bytes": 1127460248,
+          "sha256": "779cec0d210b2123e21d0a9cd8128f02b4d412627355028965a8be0b241cc3b6",
+          "dest": "umt5-base/model.safetensors"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/umt5-base/special_tokens_map.json",
+          "bytes": 7079,
+          "sha256": "",
+          "dest": "umt5-base/special_tokens_map.json"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/umt5-base/tokenizer_config.json",
+          "bytes": 61728,
+          "sha256": "",
+          "dest": "umt5-base/tokenizer_config.json"
+        },
+        {
+          "url": "https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/resolve/main/umt5-base/tokenizer.json",
+          "bytes": 16837459,
+          "sha256": "20a46ac256746594ed7e1e3ef733b83fbc5a6f0922aa7480eda961743de080ef",
+          "dest": "umt5-base/tokenizer.json"
+        }
+      ]
+    },
+    {
+      "id": "matchering",
+      "name": "Matchering",
+      "blurb": "Master your track to sound like your reference \u2014 locally, in minutes.",
+      "description": "Pick any professionally-mastered track you love as the reference, and Matchering reshapes your mix to match it \u2014 loudness, frequency balance, peak and stereo width \u2014 right on your Mac. The same open-source engine trusted by professional mastering services, running privately in an isolated environment: no upload, no per-run charges, works offline. Buy once, master forever.\n\nMatchering is free software (GPL-3.0) by Sergree \u2014 source: https://github.com/sergree/matchering",
+      "highlights": [
+        "Reference mastering \u2014 your track, shaped to a track you love",
+        "Matches loudness, EQ balance, peaks and stereo width",
+        "Runs fully on-device in an isolated engine \u2014 private and offline",
+        "One-time unlock \u2014 no credits per master"
+      ],
+      "image": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/matchering/card.jpg",
+      "category": "mastering",
+      "priceCoinz": 2500,
+      "downloadSizeBytes": 4893,
+      "version": "1",
+      "hidden": false,
+      "requirements": {},
+      "assets": [
+        {
+          "url": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/matchering/matchering_worker.py",
+          "bytes": 4238,
+          "sha256": "8a81fd9ff3f33a898e6dfbd32b696f0079d4c19452f51ea48378ff42b9eec379",
+          "dest": "matchering_worker.py"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Pure-BPM/pure-plugins-releases/main/models/matchering/requirements_matchering.txt",
+          "bytes": 655,
+          "sha256": "13157e182a82798bffeb7cb08b954e9de9135cc0b112c1653be65248953ae091",
+          "dest": "requirements_matchering.txt"
+        }
+      ]
+    }
+  ]
+}

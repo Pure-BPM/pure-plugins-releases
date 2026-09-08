@@ -1,0 +1,9 @@
+# Chatterbox TTS inference deps — installed into the sidecar's Python venv.
+# torch, torchaudio, and numpy are already present; only Chatterbox-specific
+# packages are listed here.
+#
+# Install: pip install --quiet -r requirements_chatterbox.txt
+
+chatterbox-tts
+perth
+silero-vad

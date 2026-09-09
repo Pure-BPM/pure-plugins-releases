@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-09-05",
+  "updated": "2026-09-09",
   "plugins": [
     {
       "id": "pure-control",
@@ -66,19 +66,20 @@
     {
       "id": "pure-samples",
       "name": "Pure Samples",
-      "blurb": "Generate drag-ready samples from a text prompt.",
-      "version": "0.1.0",
+      "blurb": "Generate samples from text, or search the Pure BPM marketplace — all drag-ready.",
+      "version": "0.1.1",
       "comingSoon": false,
       "assets": {
-        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-samples-v0.1.0/PureSamples-0.1.0-macOS.dmg",
-        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-samples-v0.1.0/PureSamples-0.1.0-Windows.zip"
+        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-samples-v0.1.1/PureSamples-0.1.1-macOS.dmg",
+        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-samples-v0.1.1/PureSamples-0.1.1-Windows.zip"
       },
       "detail": {
-        "tagline": "Type a sound, get a sample — hi-fi one-shots and loops generated from text.",
+        "tagline": "Type a sound and generate it, or search our marketplace — hi-fi one-shots and loops, drag-ready.",
         "engine": "Powered by Pure AI",
-        "description": "Pure Samples is a text-to-sample generator that lives in your DAW. Describe the sound — \"dusty vinyl kick\", \"metallic riser, 4 bars\", \"wet clap with tape saturation\" — and it renders a high-fidelity, drag-ready sample. Every take lands in your sample tray: audition, re-roll, set length and looping, then drag it onto a track. Your tray restores with the plugin, and samples are stored locally — they're yours. Generations run on your Coinz balance.",
+        "description": "Pure Samples is a text-to-sample generator that lives in your DAW. Describe the sound — \"dusty vinyl kick\", \"metallic riser, 4 bars\", \"wet clap with tape saturation\" — and it renders a high-fidelity, drag-ready sample. Or flip to the Sample Bank tab and search the Pure BPM marketplace: type keywords, audition the matches, and drop a published sample straight into your tray. Every take lands in your sample tray: audition, re-roll, set length and looping, then drag it onto a track. Your tray restores with the plugin, and samples are stored locally — they're yours. Generations and marketplace purchases run on your Coinz balance.",
         "highlights": [
           "Hi-fi 44.1 kHz stereo output — drum hits, FX, textures, risers",
+          "Search the Pure BPM sample marketplace and drop published samples straight into your tray",
           "Length & loop controls, with a sample tray that restores between sessions",
           "Drag straight to any Ableton track — samples stored locally, yours to keep"
         ],

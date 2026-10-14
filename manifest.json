@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-09-09",
+  "updated": "2026-10-14",
   "plugins": [
     {
       "id": "pure-control",
@@ -36,21 +36,22 @@
     {
       "id": "pure-ai",
       "name": "Pure AI",
-      "blurb": "Generate tracks and split stems, right inside Ableton.",
-      "version": "0.1.0",
+      "blurb": "Generate full tracks right inside your DAW.",
+      "version": "0.2.0",
       "comingSoon": false,
       "assets": {
-        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.1.0/PureAI-0.1.0-macOS.dmg",
-        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.1.0/PureAI-0.1.0-Windows.zip"
+        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.2.0/PureAI-0.2.0-macOS.dmg",
+        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.2.0/PureAI-0.2.0-Windows.zip"
       },
       "detail": {
-        "tagline": "Generate full tracks and split any take into stems — without leaving Ableton.",
+        "tagline": "Generate full tracks without leaving your DAW, then drag them straight onto your timeline.",
         "engine": "Powered by Pure AI",
-        "description": "Pure AI is a music generator and stem-separation suite inside your DAW. Prompt a full track — genre, mood, BPM — and audition takes right in the plugin; then split any take (or any audio file you load) into stems: vocals, drums, bass, and more, with guitar and piano in beta. Masters and stems land in your local Pure BPM library on your machine, drag-ready for any track. Generation and separation run on your Coinz balance.",
+        "description": "Pure AI is a music generator inside your DAW. Describe a track, pick an engine (MusicGPT, Mureka or MiniMax), write your own lyrics, let AI write them, or go instrumental, then set a voice and tempo and generate. Audition and scrub each take, then drag it straight onto a track as WAV or MP3. Every take is saved in your Library on your machine. Generation runs on your Coinz balance.",
         "highlights": [
-          "Full-track generation with style, mood and BPM control — multiple takes per prompt",
-          "Stem separation on generated takes or your own audio files — 4 stems, plus guitar & piano (beta)",
-          "Everything stored locally in your Pure BPM library — drag straight into your session"
+          "Three engines: MusicGPT, Mureka and MiniMax, with the price shown before you generate",
+          "Write your own lyrics, let AI write them, or go instrumental",
+          "Audition, scrub and drag takes straight onto your timeline as WAV or MP3",
+          "Every take saved locally in your Library, even if you close the plugin mid-run"
         ],
         "requirements": [
           "Ableton Live 11 or newer",

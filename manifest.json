@@ -37,11 +37,11 @@
       "id": "pure-ai",
       "name": "Pure AI",
       "blurb": "Generate full tracks right inside your DAW.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "comingSoon": false,
       "assets": {
-        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.2.0/PureAI-0.2.0-macOS.dmg",
-        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.2.0/PureAI-0.2.0-Windows.zip"
+        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.2.1/PureAI-0.2.1-macOS.dmg",
+        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.2.1/PureAI-0.2.1-Windows.zip"
       },
       "detail": {
         "tagline": "Generate full tracks without leaving your DAW, then drag them straight onto your timeline.",

@@ -68,11 +68,11 @@
       "id": "pure-samples",
       "name": "Pure Samples",
       "blurb": "Generate samples from text, or search the Pure BPM Sample Bank, all ready to drag.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "comingSoon": false,
       "assets": {
-        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-samples-v0.2.0/PureSamples-0.2.0-macOS.dmg",
-        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-samples-v0.2.0/PureSamples-0.2.0-Windows.zip"
+        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-samples-v0.2.1/PureSamples-0.2.1-macOS.dmg",
+        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-samples-v0.2.1/PureSamples-0.2.1-Windows.zip"
       },
       "detail": {
         "tagline": "Describe a sound and generate it, or search the Sample Bank, then drag it straight onto a track.",

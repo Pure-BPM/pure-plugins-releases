@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-19",
+  "updated": "2026-10-21",
   "plugins": [
     {
       "id": "pure-control",
@@ -37,11 +37,11 @@
       "id": "pure-ai",
       "name": "Pure AI",
       "blurb": "Generate full tracks right inside your DAW.",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "comingSoon": false,
       "assets": {
-        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.2.2/PureAI-0.2.2-macOS.dmg",
-        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.2.2/PureAI-Setup-0.2.2.exe"
+        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.2.3/PureAI-0.2.3-macOS.dmg",
+        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.2.3/PureAI-Setup-0.2.3.exe"
       },
       "detail": {
         "tagline": "Generate full tracks without leaving your DAW, then drag them straight onto your timeline.",
@@ -68,11 +68,11 @@
       "id": "pure-samples",
       "name": "Pure Samples",
       "blurb": "Generate samples from text, or search the Pure BPM Sample Bank, all ready to drag.",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "comingSoon": false,
       "assets": {
-        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-samples-v0.2.2/PureSamples-0.2.2-macOS.dmg",
-        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-samples-v0.2.2/PureSamples-Setup-0.2.2.exe"
+        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-samples-v0.2.3/PureSamples-0.2.3-macOS.dmg",
+        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-samples-v0.2.3/PureSamples-Setup-0.2.3.exe"
       },
       "detail": {
         "tagline": "Describe a sound and generate it, or search the Sample Bank, then drag it straight onto a track.",

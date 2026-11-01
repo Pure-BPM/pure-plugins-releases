@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-21",
+  "updated": "2026-11-01",
   "plugins": [
     {
       "id": "pure-control",
@@ -36,27 +36,28 @@
     {
       "id": "pure-ai",
       "name": "Pure AI",
-      "blurb": "Generate full tracks right inside your DAW.",
-      "version": "0.2.3",
+      "blurb": "Make full tracks and samples right inside your DAW.",
+      "version": "0.3.0",
       "comingSoon": false,
       "assets": {
-        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.2.3/PureAI-0.2.3-macOS.dmg",
-        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.2.3/PureAI-Setup-0.2.3.exe"
+        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.3.0/PureAI-0.3.0-macOS.dmg",
+        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.3.0/PureAI-Setup-0.3.0.exe"
       },
       "detail": {
-        "tagline": "Generate full tracks without leaving your DAW, then drag them straight onto your timeline.",
+        "tagline": "Generate tracks and samples, or buy from the Sample Bank, then drag them straight onto your timeline.",
         "engine": "Powered by Pure AI",
-        "description": "Pure AI is a music generator inside your DAW. Describe a track, pick an engine (MusicGPT, Mureka or MiniMax), write your own lyrics, let AI write them, or go instrumental, then set a voice and tempo and generate. Audition and scrub each take, then drag it straight onto a track as WAV or MP3. Every take is saved in your Library on your machine. Generation runs on your Coinz balance.",
+        "description": "Pure AI makes tracks and samples inside your DAW. For tracks, describe the song, pick an engine (MusicGPT, Mureka or MiniMax), write your own lyrics, let AI write them, or go instrumental, then set a voice and tempo and generate. For samples, describe a sound, pick Loop or One shot, and set the length and tempo. Or search the Pure BPM Sample Bank, preview the matches and get the ones you want. Everything you make or get is saved in your Library on your machine, ready to drag onto a track. Generation and Sample Bank purchases run on your COINZ balance.",
         "highlights": [
-          "Three engines: MusicGPT, Mureka and MiniMax, with the price shown before you generate",
-          "Write your own lyrics, let AI write them, or go instrumental",
-          "Audition, scrub and drag takes straight onto your timeline as WAV or MP3",
-          "Every take saved locally in your Library, even if you close the plugin mid-run"
+          "Tracks from three engines: MusicGPT, Mureka and MiniMax, with the price shown before you generate",
+          "Samples from a text prompt: drum hits, FX, textures, loops and risers",
+          "Search the Pure BPM Sample Bank, preview, and confirm before any paid download",
+          "Everything saved in one Library on your machine, even if you close the plugin mid-run, ready to drag onto a track"
         ],
         "requirements": [
-          "Ableton Live 11 or newer",
-          "AU & VST3 formats included",
-          "Pure BPM account (Coinz)"
+          "A DAW that loads VST3 or Audio Unit plugins",
+          "AU & VST3 formats included (AU on Mac)",
+          "macOS 11 or later on Mac",
+          "Pure BPM account (COINZ)"
         ]
       },
       "assetMeta": {
@@ -67,17 +68,17 @@
     {
       "id": "pure-samples",
       "name": "Pure Samples",
-      "blurb": "Generate samples from text, or search the Pure BPM Sample Bank, all ready to drag.",
-      "version": "0.2.3",
+      "blurb": "Now part of Pure AI. Generate samples from text, or search the Pure BPM Sample Bank.",
+      "version": null,
       "comingSoon": false,
       "assets": {
-        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-samples-v0.2.3/PureSamples-0.2.3-macOS.dmg",
-        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-samples-v0.2.3/PureSamples-Setup-0.2.3.exe"
+        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.3.0/PureAI-0.3.0-macOS.dmg",
+        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.3.0/PureAI-Setup-0.3.0.exe"
       },
       "detail": {
-        "tagline": "Describe a sound and generate it, or search the Sample Bank, then drag it straight onto a track.",
+        "tagline": "Pure Samples is now part of Pure AI. Download Pure AI to make samples and search the Sample Bank.",
         "engine": "Powered by Pure AI",
-        "description": "Pure Samples is a sample generator inside your DAW. Describe the sound, like \"dusty vinyl kick\", \"metallic riser\" or \"wet clap with tape saturation\", pick Loop or One shot, set the length and tempo (it follows your set), and generate. Or open the Bank tab to search the Pure BPM Sample Bank, preview the matches and get the ones you want. Every sample you make or get is saved in your Library on your machine, ready to preview and drag onto a track. Generation and Sample Bank purchases run on your Coinz balance.",
+        "description": "Everything Pure Samples did is now in Pure AI, on its Samples and Bank tabs, so this download installs Pure AI. If you already have Pure Samples it stays as it is, and projects that use it still open. Generation and Sample Bank purchases run on your COINZ balance.",
         "highlights": [
           "Hi-fi 44.1 kHz stereo output: drum hits, FX, textures, loops and risers",
           "Search the Pure BPM Sample Bank, preview, and confirm before any paid download",
@@ -85,14 +86,15 @@
           "Every sample saved in your Library, even if you close the plugin mid-run, ready to drag onto any track"
         ],
         "requirements": [
-          "Ableton Live 11 or newer",
-          "AU & VST3 formats included",
-          "Pure BPM account (Coinz)"
+          "A DAW that loads VST3 or Audio Unit plugins",
+          "AU & VST3 formats included (AU on Mac)",
+          "macOS 11 or later on Mac",
+          "Pure BPM account (COINZ)"
         ]
       },
       "assetMeta": {
-        "macos": ".dmg · signed & notarized · Universal (Apple Silicon & Intel)",
-        "windows": ".exe installer"
+        "macos": ".dmg · installs Pure AI · signed & notarized · Universal (Apple Silicon & Intel)",
+        "windows": ".exe installer · installs Pure AI"
       }
     }
   ]

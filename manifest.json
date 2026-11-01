@@ -37,11 +37,11 @@
       "id": "pure-ai",
       "name": "Pure AI",
       "blurb": "Make full tracks and samples right inside your DAW.",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "comingSoon": false,
       "assets": {
-        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.3.1/PureAI-0.3.1-macOS.dmg",
-        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.3.1/PureAI-Setup-0.3.1.exe"
+        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.3.2/PureAI-0.3.2-macOS.dmg",
+        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.3.2/PureAI-Setup-0.3.2.exe"
       },
       "detail": {
         "tagline": "Generate tracks and samples, or buy from the Sample Bank, then drag them straight onto your timeline.",
@@ -72,8 +72,8 @@
       "version": null,
       "comingSoon": false,
       "assets": {
-        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.3.1/PureAI-0.3.1-macOS.dmg",
-        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.3.1/PureAI-Setup-0.3.1.exe"
+        "macos": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.3.2/PureAI-0.3.2-macOS.dmg",
+        "windows": "https://github.com/Pure-BPM/pure-plugins-releases/releases/download/pure-ai-v0.3.2/PureAI-Setup-0.3.2.exe"
       },
       "detail": {
         "tagline": "Pure Samples is now part of Pure AI. Download Pure AI to make samples and search the Sample Bank.",

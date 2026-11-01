@@ -1,7 +1,7 @@
 PURE AI THIRD PARTY NOTICES
 
-Version 1.0 for Pure AI 0.3.1. This file is installed with Pure AI, next to the
-licence agreement (EULA.txt).
+Version 1.0. This file is installed with Pure AI, next to the licence agreement
+(EULA.txt).
 
 Pure AI is a plug-in in the VST® 3 and Audio Units formats. It contains the
 software and fonts listed below. Each is the property of its owners and is used

@@ -1,0 +1,87 @@
+PURE AI END USER LICENCE AGREEMENT
+
+Version 1.0. Effective 1 November 2026.
+
+This agreement is between you and Pure BPM Pty Ltd (ACN 690 461 815) ("Pure BPM", "we" or "us"). It covers the Pure AI plugin in VST3 and Audio Unit formats, its installer and any updates (the "Software").
+
+YOUR RIGHTS UNDER THE AUSTRALIAN CONSUMER LAW. Nothing in this agreement excludes, restricts or modifies any guarantee, right or remedy you have under the Australian Consumer Law or any other law that cannot lawfully be excluded.
+
+1. ACCEPTING THIS AGREEMENT
+
+By clicking Agree, or by installing or using the Software, you agree to this agreement. If you do not agree, do not install or use the Software.
+
+This agreement forms Supplemental Terms under section 1.2 of the Pure BPM Terms of Use at https://www.purebpm.com/terms (the "Terms"). The Terms and the Privacy Policy at https://www.purebpm.com/privacy also apply to your use of the Software. If this agreement and the Terms conflict, this agreement applies to the Software.
+
+You must be at least 16 to use the Software. If you are under 18, your parent or legal guardian must agree for you and is responsible for your use, including purchases.
+
+2. YOUR LICENCE
+
+The Software is licensed to you, not sold. Subject to this agreement, we grant you a limited, non-exclusive, non-transferable, non-sublicensable and revocable licence to install and use the Software on computers you own or control for your own personal or internal business purposes, including making music in your digital audio workstation.
+
+You need a Pure BPM account and an internet connection to generate audio or to use the Sample Bank.
+
+3. WHAT YOU MUST NOT DO
+
+You must not, and must not let anyone else:
+
+(a) sell, rent, lend, sublicense, host or redistribute the Software or its installer;
+
+(b) copy the Software, other than to install it as allowed by clause 2 or to keep a backup of the installer;
+
+(c) reverse engineer or decompile the Software, or try to derive its source code, except to the extent this restriction is prohibited by law;
+
+(d) get around sign in, COINZ charges, usage limits or any other protection in the Software;
+
+(e) remove or obscure any proprietary notice in the Software;
+
+(f) use the Software in any way the Terms prohibit, including sections 4 and 5.6.
+
+4. YOUR ACCOUNT AND COINZ
+
+Generating audio and buying from the Sample Bank use COINZ from your Pure BPM account. COINZ are called Coinz in the Terms, and section 7 of the Terms applies, including its terms on refunds. You are responsible for all activity through the Software while you are signed in, including on a computer you share.
+
+5. AUDIO YOU GENERATE
+
+Tracks and samples you generate with the Software are "Tracks" and "Output" under the Terms. Sections 3 to 6 of the Terms apply to them, including these points:
+
+(a) your rights depend on the provider that generated the audio, as set out in section 5.3 of the Terms;
+
+(b) audio generated with MiniMax Music must be labelled as AI-generated if you use it commercially, as section 5.3 requires;
+
+(c) you must not present generated audio as human-created (section 5.6);
+
+(d) generated audio may not be unique to you and may not be protected by copyright (sections 5.5 and 5.7);
+
+(e) the prompt restrictions in section 4.2 apply, including those on artist names and copyrighted lyrics.
+
+6. THE SAMPLE BANK
+
+Samples in the Sample Bank are made available by other members. Once you have obtained a sample from the Sample Bank, you may use it in your own music, including commercially. You must not resell or redistribute it as a sample, including in a sample pack or library. Each purchase is confirmed in the Software before any COINZ are spent. Purchases are final, except for your rights under the Australian Consumer Law.
+
+7. FILES ON YOUR COMPUTER
+
+The Software saves your audio to a Library folder on your computer. It saves your sign in to your operating system's secure credential store. You are responsible for keeping backups of anything you want to keep (section 3.4 of the Terms). Deleting a sample in the Software deletes it from your computer, and it may not be recoverable.
+
+8. UPDATES AND COMPATIBILITY
+
+We may release new versions. You choose when to install them, but an older version may stop working if our services change. The Software depends on your digital audio workstation and operating system, which we do not control. We do not promise that it works with every host, version or computer.
+
+9. OWNERSHIP AND THIRD PARTY COMPONENTS
+
+We and our licensors own all rights in the Software, other than your rights in audio set out in the Terms. The Software includes third party components under their own licences, listed in the notices supplied with it. Those licences apply to those components, and nothing in this agreement limits your rights under them.
+
+10. OUR LIABILITY
+
+Our goods come with guarantees that cannot be excluded under the Australian Consumer Law. You are entitled to a replacement or refund for a major failure and compensation for any other reasonably foreseeable loss or damage. You are also entitled to have the goods repaired or replaced if the goods fail to be of acceptable quality and the failure does not amount to a major failure.
+
+Subject to that, sections 11 and 12 of the Terms apply to the Software, including the limits on our liability, and sections 14 and 15 also apply.
+
+11. ENDING THIS AGREEMENT
+
+You may end this agreement at any time by uninstalling the Software. Your licence ends automatically if you materially breach this agreement or if your Pure BPM account is terminated. When it ends you must uninstall the Software. Your rights in audio you already generated continue as set out in the Terms.
+
+12. CHANGES, LAW AND CONTACT
+
+We may update this agreement. A later version applies when you accept it on installing an update, or as section 16 of the Terms provides. This agreement is governed by the laws of Victoria, Australia, and section 17 of the Terms applies.
+
+Pure BPM Pty Ltd, Mezzanine, Level 1, 452 Flinders Street, Melbourne VIC 3000. info@purebpm.com
